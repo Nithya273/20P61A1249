@@ -61,7 +61,7 @@ const Products: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Simulate a delay
+   
         await new Promise(resolve => setTimeout(resolve, 1000));
         setData(products);
         setLoading(false);
