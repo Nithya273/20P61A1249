@@ -1,9 +1,9 @@
 import React from 'react'
-import Products from './Components/Products'
+import Pro from './Components/Pro'
 const App = () => {
   return (
     <div>
-<Products/>
+<Pro/>
     </div>
   )
 }
